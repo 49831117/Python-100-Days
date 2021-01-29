@@ -23,3 +23,14 @@
 - `print()`
 
 > Side Project：[Band Name Generator](https://github.com/49831117/Python-100-Days/blob/master/band-name-generator.py)
+
+----
+
+## Day 2
+- 運算子的運用
+- ***f-string***
+- `round( float, decimal places)`：浮點數的小數位數
+  
+> Side Project：
+  [Tips Calculator]
+  [Your Life]
