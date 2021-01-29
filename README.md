@@ -22,7 +22,7 @@
 - `input()`
 - `print()`
 
-> Side Project：
+> **Side Project：**
 > 
 > [Band Name Generator](https://github.com/49831117/Python-100-Days/blob/master/band-name-generator.py)
 
@@ -33,7 +33,7 @@
 - ***f-string***
 - `round( float, decimal places)`：浮點數的小數位數
   
-> Side Project：
+> **Side Project：**
 > 
 > [Tips Calculator](https://github.com/49831117/Python-100-Days/blob/master/tips_calculator.py)
 > 
@@ -45,7 +45,7 @@
 - if/elif/else
 - `str.count( sub, start = 0, end = len(string) )`
 
-> Side Project：
+> **Side Project：**
 > 
 > [Roller Coaster Ticket](https://github.com/49831117/Python-100-Days/blob/master/roller_coaster_ticket.py)
 > 
@@ -68,7 +68,12 @@
     `print( mymodule.pi )`：叫出 mymodule.py 中的 pi 函數
 - [NOTE - List](https://docs.python.org/3/tutorial/datastructures.html#data-structures)
 
-> Side Project：
+
+- 反思 
+1. 若事先決定「贏」、「輸」、「平手」，搭配 array 的可行性？
+
+
+> **Side Project：**
 > 
 > [Toss A Coin](https://github.com/49831117/Python-100-Days/blob/master/toaa_a_coin.py)
 > 
