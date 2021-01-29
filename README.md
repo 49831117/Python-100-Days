@@ -34,3 +34,13 @@
 > Side Project：
 > [Tips Calculator](https://github.com/49831117/Python-100-Days/blob/master/tips_calculator.py)
 > [Your Life](https://github.com/49831117/Python-100-Days/blob/master/your_life.py)
+
+----
+
+## Day 3
+- if/elif/else
+- `str.count( sub, start = 0, end = len(string) )`
+
+> Side Project：
+> [Roller Coaster Ticket]
+> [Love Calculator]
