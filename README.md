@@ -42,5 +42,5 @@
 - `str.count( sub, start = 0, end = len(string) )`
 
 > Side Project：
-> [Roller Coaster Ticket]
-> [Love Calculator]
+> [Roller Coaster Ticket](https://github.com/49831117/Python-100-Days/blob/master/roller_coaster_ticket.py)
+> [Love Calculator](https://github.com/49831117/Python-100-Days/blob/master/love_calculator.py)
