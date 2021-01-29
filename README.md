@@ -1,7 +1,8 @@
 # About Python 100 Days
-> 僅為學習過程中的隨手筆記。
+僅為學習過程中的隨手筆記。
 
 ## Day 1
+
 - 線上 IDE：https://repl.it/
 - 友善初學者的 IDE ：https://thonny.org/
 - 資料型態：
@@ -10,10 +11,10 @@
   - 列表：`list[]`
   - 集合：`set{}`
     - 運算
-      1. 聯集 `|`
-      2. 交集 `&`
-      3. 差集 `-`
-      4. XOR `^`
+      - 聯集 `|`
+      - 交集 `&`
+      - 差集 `-`
+      - XOR `^`
   - 元組：`tuple()`
   - 字典：`{}`
   - 布林值：True、False
@@ -22,6 +23,7 @@
 - `input()`
 - `print()`
 
+
 > **Side Project：**
 > 
 > [Band Name Generator](https://github.com/49831117/Python-100-Days/blob/master/band-name-generator.py)
@@ -29,9 +31,11 @@
 ----
 
 ## Day 2
+
 - 運算子的運用
 - ***f-string***
 - `round( float, decimal places)`：浮點數的小數位數
+
   
 > **Side Project：**
 > 
@@ -42,8 +46,10 @@
 ----
 
 ## Day 3
+
 - if/elif/else
 - `str.count( sub, start = 0, end = len(string) )`
+
 
 > **Side Project：**
 > 
@@ -54,6 +60,7 @@
 ----
 
 ## Day 4
+
 - `import random`
   - `random.randint(a, b)` : random integer belongs to [a, b]
   - `random.random()` : [0, 1) 之間隨機的浮點數
@@ -83,6 +90,21 @@
 > 
 > [Paper Scissors Stone](https://github.com/49831117/Python-100-Days/blob/master/paper_scissors_stone.py)
 
+----
 
-##### 反思 
-1. 若事先決定「贏」、「輸」、「平手」，搭配 array 的可行性？
+## Day 5
+
+- [';--have i been pwned?](https://haveibeenpwned.com/)
+- `for` 迴圈
+- `range()`
+  
+
+> **Side Project：**
+> 
+> [Max min avg](https://github.com/49831117/Python-100-Days/blob/master/max_min_avg.py)
+> 
+> [Even sum](https://github.com/49831117/Python-100-Days/blob/master/even_sum.py)
+> 
+> [Fizz Buzz](https://github.com/49831117/Python-100-Days/blob/master/fizz_buzz.py)
+> 
+> [Password Generator](https://github.com/49831117/Python-100-Days/blob/master/password_generator.py)
