@@ -22,4 +22,4 @@
 - `input()`
 - `print()`
 
-> Side Project：Band Name Generator
+> Side Project：[Band Name Generator](https://github.com/49831117/Python-100-Days/blob/master/band-name-generator.py)
