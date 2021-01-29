@@ -32,5 +32,5 @@
 - `round( float, decimal places)`：浮點數的小數位數
   
 > Side Project：
-  [Tips Calculator]
-  [Your Life]
+  [Tips Calculator](https://github.com/49831117/Python-100-Days/blob/master/tips_calculator.py)
+  [Your Life](https://github.com/49831117/Python-100-Days/blob/master/your_life.py)
