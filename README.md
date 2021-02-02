@@ -1,5 +1,6 @@
 # About Python 100 Days
 僅為學習過程中的隨手筆記。
+[Python Tutorial](https://www.w3schools.com/python/)
 
 ## Day 1
 
@@ -128,7 +129,8 @@
   - [tool - flow chart maker](https://drow.io)
     - 此字庫與[ASCII](https://ascii.co.uk/art)可自行更換。
 
-* 改成 Bulls and cows？
+- 反思 
+1. 改成 Bulls and cows？
 
 > **Side Project：**
 > 
@@ -155,8 +157,11 @@
     # call function
     greet_with(location="TAIWAN", name = "Chi-Ling") 
     ```
+- [Wiki - Caesar cipher](https://en.wikipedia.org/wiki/Caesar_cipher)
 
 
 > **Side Project：**
 > 
 > [Hangman](https://github.com/49831117/Python-100-Days/blob/master/hangman.py)
+>
+> [Caesar-cipher](https://github.com/49831117/Python-100-Days/blob/master/caesar_cipher.py)
