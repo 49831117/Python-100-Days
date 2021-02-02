@@ -62,6 +62,8 @@
 ## Day 4
 
 - `import random`
+  - [Wiki - Mersenne Twister](https://en.wikipedia.org/wiki/Mersenne_Twister)
+  - [Pseudorandom number generators](https://www.khanacademy.org/computing/computer-science/cryptography/crypt/v/random-vs-pseudorandom-number-generators)
   - `random.randint(a, b)` : random integer belongs to [a, b]
   - `random.random()` : [0, 1) 之間隨機的浮點數
   - `random.uniform(a, b)` : [a, b]中隨機的浮點數
@@ -108,3 +110,53 @@
 > [Fizz Buzz](https://github.com/49831117/Python-100-Days/blob/master/fizz_buzz.py)
 > 
 > [Password Generator](https://github.com/49831117/Python-100-Days/blob/master/password_generator.py)
+
+----
+
+## Day 6
+
+- [Reeborg's World - Maze](https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Maze&url=worlds%2Ftutorial_en%2Fmaze1.json)
+  - Tips：walk along the right-hand side ( or left-hand side ) wall.
+    - [Reeborg's World - Maze 實作](https://github.com/49831117/Python-100-Days/blob/master/Reeborgs_World_Maze.md)
+
+----
+
+## Day 7
+
+- [Wiki - Hangman (game)](https://en.wikipedia.org/wiki/Hangman_(game)) 
+  - 紀錄思路，結合所學完成此遊戲。
+  - [tool - flow chart maker](https://drow.io)
+    - 此字庫與[ASCII](https://ascii.co.uk/art)可自行更換。
+
+* 改成 Bulls and cows？
+
+> **Side Project：**
+> 
+> [Hangman](https://github.com/49831117/Python-100-Days/blob/master/hangman.py)
+
+----
+
+## Day 8
+
+- creat a function
+  1. 
+    ```python
+    def func(): # 定義函數
+      to do
+
+    func() # 呼叫函數
+    ```
+  2. 
+    ```python
+    # def fun with 2 parameters
+    def greet_with(name=" ", location=" "):
+      print (f"Hello {name}!")
+      print (f"Welcome to {location}!")
+    # call function
+    greet_with(location="TAIWAN", name = "Chi-Ling") 
+    ```
+
+
+> **Side Project：**
+> 
+> [Hangman](https://github.com/49831117/Python-100-Days/blob/master/hangman.py)
