@@ -143,17 +143,20 @@
 - creat a function
   1. 
     ```python
-    def func(): # 定義函數
+    # def function
+    def func(): 
       to do
-
-    func() # 呼叫函數
+      
+    # call function
+    func() 
     ```
   2. 
     ```python
-    # def fun with 2 parameters
+    # def function with 2 or more parameters
     def greet_with(name=" ", location=" "):
       print (f"Hello {name}!")
       print (f"Welcome to {location}!")
+
     # call function
     greet_with(location="TAIWAN", name = "Chi-Ling") 
     ```
