@@ -233,8 +233,19 @@
         }
       ]
       ```
+- [VISUALIZE CODE EXECUTION](http://www.pythontutor.com/)
+  - 與 [Thonny](https://thonny.org/) 相似
 
 > **Side Project：**
 > 
 > [Grading Program](https://github.com/49831117/Python-100-Days/blob/master/grading_program.py)
 >
+> [Travel Log](https://github.com/49831117/Python-100-Days/blob/master/travel_log.py)
+>
+> [Blind Auction](https://github.com/49831117/Python-100-Days/blob/master/blind_auction.py)
+
+----
+
+## Day 10
+
+- Function
