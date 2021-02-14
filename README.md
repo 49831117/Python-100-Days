@@ -168,3 +168,73 @@
 > [Hangman](https://github.com/49831117/Python-100-Days/blob/master/hangman.py)
 >
 > [Caesar-cipher](https://github.com/49831117/Python-100-Days/blob/master/caesar_cipher.py)
+
+----
+
+## Day 9
+
+- dictionary
+  ```python
+  # build a dictionary
+  programming_dict = {
+    "Bug":"An error in a program that prevents the program from running as expectrd.",
+    "Function":"A piece of code that you can easily call over and over again."
+  }
+
+  # retreive an item from the dictionary
+  # fetching by key - should type exactly correct
+  programming_dict["Bug"] 
+
+  # adding new items to dictionary
+  programming_dict["Loop"] = "The action of doing something over and over again."
+
+  # creating an empty dictionary
+  empty_dict = {}
+
+  # wipe an existing dictionary
+  programming_dict = {}
+
+  # editing an item in dictionary
+  programming_dict["Bug"] = "A moth in your computer."
+
+  # loop through a dictionary
+  for thing in programming_dict:
+    print(thing) # print all keys
+    print(programming_dict[thing]) # print all values
+  ```
+- nesting
+  字典的 `value` 有許多種形式，如下：
+  ```python
+  {
+    key1:value1,
+    key2:[List],
+    key3:{Dict}
+  }
+  ```
+  1. Nesting dictionary in a dictionary
+      ```python
+      travel_log = {
+        "China": {"cities_visited": ["Shanghai", "Beijin", "Nanjin"], "total_visits": 7},
+        "Japan": {"cities_visited": ["Tokyo", "Osaka"], "total_visits": 2}
+      }
+      ```
+  2. Nesting dictionary in a list
+      ```python
+      travel_log = [
+        {
+          "country": "China", 
+          "cities_visited": ["Shanghai", "Beijin", "Nanjin"], 
+          "total_visits": 7
+        },
+        {
+          "country": "Japan",
+          "cities_visited": ["Tokyo", "Osaka"], 
+          "total_visits": 2
+        }
+      ]
+      ```
+
+> **Side Project：**
+> 
+> [Grading Program](https://github.com/49831117/Python-100-Days/blob/master/grading_program.py)
+>

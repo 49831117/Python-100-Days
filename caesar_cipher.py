@@ -41,7 +41,7 @@ def caeser(direction_input, text_input, shift_amount):
 
 continue_or_not = True
 
-while continue_or_not is True:
+while continue_or_not is True: # 或 while continue_or_not:
     # 選擇加密或解密
     direction = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n ").lower()
     # 欲加密 / 解密的文字，並轉成小寫
