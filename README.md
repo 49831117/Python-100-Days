@@ -249,3 +249,6 @@
 ## Day 10
 
 - Function
+  [Format Name](https://github.com/49831117/Python-100-Days/blob/master/format_name.py)
+  1. `string.capitalize()` 及 `string.title()` 的應用
+  2. `return` 紀錄 function 的回傳值，同時結束該 function，意即：不論 `return` 後還有多少指令，皆不執行。
