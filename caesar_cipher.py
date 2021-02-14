@@ -35,28 +35,32 @@ def caeser(direction_input, text_input, shift_amount):
         else:
             end_text += alph
 
-    print(f"{direction_input} \"{text_input}\" in {shift_amount} digits result：{end_text}")
+    print(f"{direction_input} \"{text_input}\" in {shift_amount} digits result：\n {end_text}")
 
 
 continue_or_not = True
 
 while continue_or_not is True:
     # 選擇加密或解密
-    direction = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n").lower()
+    direction = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n ").lower()
     # 欲加密 / 解密的文字，並轉成小寫
-    text = input("Type your message:\n").lower() 
+    text = input("Type your message:\n ").lower() 
     # 平移字元數量
-    shift = int(input("Type the shift number:\n"))
+    shift = int(input("Type the shift number:\n "))
     # mod 26
     shift = shift % 26
 
     caeser(direction_input=direction, text_input=text, shift_amount=shift)
 
     # 是否要繼續執行程式?
-    want_continue = input("Type 'yes' if you want to decode/encode again. Otherwise type 'no'.\n").lower()
+    want_continue = input("Type 'yes' if you want to decode or encode again. Otherwise type 'no'.\n ").lower()
     if want_continue == "no":
         continue_or_not = False
         print("Goodbye.")
+    elif want_continue == "yes":
+        continue_or_not = True
+    # Quetion: 如果輸入 yes or no 以外的字?
+
 
 
 
