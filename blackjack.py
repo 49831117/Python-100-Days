@@ -25,8 +25,7 @@ def mylist(list):
     if j == 0 and 11 in list:
         list.append(1)
     elif (sum(list) + int(cards[j-1])) > 21 and (11 in list):
-        list.remove(11)
-        list.append(1)
+        list.replace(11, 1)
         list.append(cards[j-1])
     else:
         list.append(cards[j-1])
@@ -34,14 +33,18 @@ def mylist(list):
 
 # 當玩家 stand 輪到莊家抽牌，過程中若莊家手牌總和 < 17 就得抽下一張牌，直到滿足條件為止，並紀錄莊家手牌及總和。
 def computerlist(c_list):
-    if sum(c_list) < 17: # 莊家必須 hit
+    if sum(c_list) == 21:
+        print("==== Black Jack! ====\n")
+        checkwinner2(list, c_list)
+    elif sum(c_list) < 17: # 莊家必須 hit
         j = random.randint(1, 13)
         if j == 0 and 11 in c_list:
             c_list.append(1)
-        elif (sum(c_list) + int(cards[j-1]) > 21) and (11 in list):
-            c_list.remove(11)
-            c_list.append(1)
+        elif (sum(c_list) + int(cards[j-1])) > 21 and (11 in list):
+            c_list.replace(11, 1)
             c_list.append(cards[j-1])
+        elif (sum(c_list) + int(cards[j-1])) > 21 and (11 not in list):
+            c_list.append(1)
         else:
             c_list.append(cards[j-1])
         computerlist(c_list)
@@ -52,10 +55,12 @@ def computerlist(c_list):
 # check bust
 def checkbust(list):
     if sum(list) > 21:
-        print(f"\nComputer's cards: {c_list}, and computer's score: {sum(c_list)}\nYour cards: {list}, your score: {sum(list)}\nBust! You loss.\n")
+        print(f"Computer's cards: {c_list}, and computer's score: {sum(c_list)}\nYour cards: {list}, your score: {sum(list)}\nBust! You loss.\n")
         return
+    elif sum(list) == 21:
+        hit_or_stand(list)
     else:
-        print(f"\nYour cards: {list}, current score: {sum(list)}")
+        print(f"Your cards: {list}, current score: {sum(list)}")
         hit_or_stand(list)
 
 
@@ -89,6 +94,8 @@ def hit_or_stand(list):
     sum2 = sum(c_list)
     while hit:
         if sum1 > 21 or sum2 > 21:
+            checkwinner2(list, c_list)
+            checkbust(list)
             break
         elif sum1 < 21:
             h_or_s = input("Type 'y' to get another card, type 'n' to pass. (Y/N) ").lower()
@@ -102,7 +109,8 @@ def hit_or_stand(list):
                 checkwinner(list, c_list) 
                 hit = False               
         elif sum1 == 21:
-            print("Black Jack!\n")
+            print("==== Black Jack! ====\n")
+            computerlist(c_list)
             checkwinner2(list, c_list)
             hit = False
         else:
@@ -128,9 +136,9 @@ if playornot == "y":
     k = random.randint(1, 13)
     c_list.append(cards[k-1])
     print(f"\nYour cards: {list}, current score: {sum(list)}")
-    if sum(c_list) == 21 and sum(list) != 21:
-        print("\nBlack Jack!")
-        print(f"Computer's cards: {c_list}, and computer's score: {sum(c_list)}\nYour cards: {list}, your score: {sum(list)}\nSorry! You loss!\n")
+    if sum(c_list) == 21:
+        print("\n==== Black Jack! ====\n")
+        print(f"Computer's cards: {c_list}, and computer's score: {sum(c_list)}\nYour cards: {list}.\nSorry! You loss!\n")
     else:
         print(f"Computer's first card: {c_list[0]}\n")
         hit_or_stand(list)
