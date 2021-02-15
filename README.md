@@ -272,3 +272,9 @@
 
 ## Day 11
 
+- 綜合前面 10 天內容，完成簡單的 Blackjack 遊戲。
+- 實際玩玩看：[Online Free Blackjack](https://games.washingtonpost.com/games/blackjack/)
+
+> **Side Project：**
+> 
+> [Ｂlackjack](https://github.com/49831117/Python-100-Days/blob/master/blackjack.py)
