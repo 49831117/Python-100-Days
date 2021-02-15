@@ -127,8 +127,10 @@ if playornot == "y":
     c_list.append(cards[j-1])
     k = random.randint(1, 13)
     c_list.append(cards[k-1])
-    sum_of_c_list = sum(c_list)
-    
-    
-    print(f"\nYour cards: {list}, current score: {sum(list)}\nComputer's first card: {c_list[0]}\n")
-    hit_or_stand(list)
+    print(f"\nYour cards: {list}, current score: {sum(list)}")
+    if sum(c_list) == 21 and sum(list) != 21:
+        print("\nBlack Jack!")
+        print(f"Computer's cards: {c_list}, and computer's score: {sum(c_list)}\nYour cards: {list}, your score: {sum(list)}\nSorry! You loss!\n")
+    else:
+        print(f"Computer's first card: {c_list[0]}\n")
+        hit_or_stand(list)
