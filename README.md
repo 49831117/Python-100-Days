@@ -53,7 +53,9 @@
 
 
 > **Side Project：**
-> 
+>
+> [Leap Year](https://github.com/49831117/Python-100-Days/blob/master/leap_year.py)
+>
 > [Roller Coaster Ticket](https://github.com/49831117/Python-100-Days/blob/master/roller_coaster_ticket.py)
 > 
 > [Love Calculator](https://github.com/49831117/Python-100-Days/blob/master/love_calculator.py)
@@ -252,3 +254,16 @@
   [Format Name](https://github.com/49831117/Python-100-Days/blob/master/format_name.py)
   1. `string.capitalize()` 及 `string.title()` 的應用
   2. `return` 紀錄 function 的回傳值，同時結束該 function，意即：不論 `return` 後還有多少指令，皆不執行。
+- **Docstring**
+    ```python
+    def func(a, b):
+      """docstring"""
+      define func(a, b) here
+    ```
+
+
+> **Side Project：**
+> 
+> [Leap Year 2](https://github.com/49831117/Python-100-Days/blob/master/leap_year2.py)
+> 
+> [Calculator](https://github.com/49831117/Python-100-Days/blob/master/calculator.py)
