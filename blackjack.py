@@ -1,9 +1,4 @@
 
-"""
-未完成：sum > 21 時，唯一一張 ace 要改成 1。
-"""
-
-
 logo = """
 .------.            _     _            _    _            _    
 |A_  _ |.          | |   | |          | |  (_)          | |   
@@ -16,6 +11,10 @@ logo = """
 """
 
 import random
+import os
+
+def clear():
+    os.system('cls')
 
 cards = [11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10]
 
@@ -25,8 +24,12 @@ def mylist(list):
     j = random.randint(1, 13)
     if j == 0 and 11 in list:
         list.append(1)
+    elif (sum(list) + int(cards[j-1])) > 21 and (11 in list):
+        list.remove(11)
+        list.append(1)
+        list.append(cards[j-1])
     else:
-        list.append(cards[j-1]) 
+        list.append(cards[j-1])
     return list
 
 # 當玩家 stand 輪到莊家抽牌，過程中若莊家手牌總和 < 17 就得抽下一張牌，直到滿足條件為止，並紀錄莊家手牌及總和。
@@ -35,6 +38,10 @@ def computerlist(c_list):
         j = random.randint(1, 13)
         if j == 0 and 11 in c_list:
             c_list.append(1)
+        elif (sum(c_list) + int(cards[j-1]) > 21) and (11 in list):
+            c_list.remove(11)
+            c_list.append(1)
+            c_list.append(cards[j-1])
         else:
             c_list.append(cards[j-1])
         computerlist(c_list)
@@ -45,7 +52,7 @@ def computerlist(c_list):
 # check bust
 def checkbust(list):
     if sum(list) > 21:
-        print(f"\nComputer's cards: {c_list}, and computer's score: {sum(c_list)}\nYour cards: {list}, your score: {sum(list)}\nBust! You loss.")
+        print(f"\nComputer's cards: {c_list}, and computer's score: {sum(c_list)}\nYour cards: {list}, your score: {sum(list)}\nBust! You loss.\n")
         return
     else:
         print(f"\nYour cards: {list}, current score: {sum(list)}")
@@ -110,6 +117,7 @@ c_list = []
 playornot = input("Do you want to play a game of Blackjack? (Y/N) ").lower()
 
 if playornot == "y":
+    clear()
     print(logo)
 
     mylist(list)
