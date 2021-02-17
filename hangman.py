@@ -26,10 +26,7 @@ letter_guessed = []
 
 while "_" in display:
     guess = input("Guess a letter: ").lower()
-    t = 0 # 記數用
-    #
-    clear() ###
-    #
+    t = 0 # 記數用 #####
     
     if "_" in display:
         if guess not in chosen_word:
@@ -46,12 +43,14 @@ while "_" in display:
                     print ("Wrong Time:", die)
                     print (f"You lose! The answer is '{chosen_word}'.")
                     break
-                target = " ".join(display)
-                print ("Target:", target)
+                # target = " ".join(display)
+                # print ("Target:", target)
             elif guess in wrong_guess:
                 print ( hangmanartandwords.stages[die])
                 print ("Wrong Time:", die)
                 print (f"{guess} is false, you already guessed it. ~\"~ ")
+            target = " ".join(display)
+            print ("Target:", target)
         elif guess in chosen_word:            
             for letter in chosen_word:
                 if t < word_lenth :

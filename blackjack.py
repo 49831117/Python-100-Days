@@ -22,11 +22,15 @@ cards = [11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10]
 # 玩家抽一張牌，並紀錄手牌及總和
 def mylist(list):
     j = random.randint(1, 13)
+    sum_test = sum(list) + cards[j-1]
     if j == 0 and 11 in list:
         list.append(1)
-    elif (sum(list) + int(cards[j-1])) > 21 and (11 in list):
-        list.replace(11, 1)
+    elif sum_test > 21 and (11 in list):
+        list.remove(11)
+        list.append(1)
         list.append(cards[j-1])
+    elif sum_test > 21 and j == 0:
+        list.append(1)
     else:
         list.append(cards[j-1])
     return list
@@ -34,16 +38,17 @@ def mylist(list):
 # 當玩家 stand 輪到莊家抽牌，過程中若莊家手牌總和 < 17 就得抽下一張牌，直到滿足條件為止，並紀錄莊家手牌及總和。
 def computerlist(c_list):
     if sum(c_list) == 21:
-        print("==== Black Jack! ====\n")
         checkwinner2(list, c_list)
     elif sum(c_list) < 17: # 莊家必須 hit
         j = random.randint(1, 13)
+        sum_test = sum(c_list) + cards[j-1]
         if j == 0 and 11 in c_list:
             c_list.append(1)
-        elif (sum(c_list) + int(cards[j-1])) > 21 and (11 in list):
-            c_list.replace(11, 1)
+        elif (11 in list) and sum_test > 21:
+            c_list.remove(11)
+            c_list.append(1)
             c_list.append(cards[j-1])
-        elif (sum(c_list) + int(cards[j-1])) > 21 and (11 not in list):
+        elif sum_test > 21 and (11 not in list):
             c_list.append(1)
         else:
             c_list.append(cards[j-1])

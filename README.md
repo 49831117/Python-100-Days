@@ -168,8 +168,6 @@
 
 > **Side Project：**
 > 
-> [Hangman](https://github.com/49831117/Python-100-Days/blob/master/hangman.py)
->
 > [Caesar-cipher](https://github.com/49831117/Python-100-Days/blob/master/caesar_cipher.py)
 
 ----
