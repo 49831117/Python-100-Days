@@ -291,4 +291,4 @@
 
 > **Side Project：**
 > 
-> [Ｂlackjack](https://github.com/49831117/Python-100-Days/blob/master/blackjack.py)
+> [Black Jack](https://github.com/49831117/Python-100-Days/blob/master/blackjack.py)
