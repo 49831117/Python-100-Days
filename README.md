@@ -274,6 +274,7 @@
 
 - 綜合前面 10 天內容，完成簡單的 Blackjack 遊戲。
 - 實際玩玩看：[Online Free Blackjack](https://games.washingtonpost.com/games/blackjack/)
+- **Regularly test your code so that you don't wait until the end when they're a lot of problem.**
 - To do list
   - [ ] Deal both user and computer a starting hand of 2 random card values.
   - [ ] Detect when computer or user has a blackjack. (Ace + 10 value card).
@@ -291,4 +292,4 @@
 
 > **Side Project：**
 > 
-> [Black Jack](https://github.com/49831117/Python-100-Days/blob/master/blackjack.py)
+> [Black Jack](https://github.com/49831117/Python-100-Days/blob/master/blackjack2.py)
