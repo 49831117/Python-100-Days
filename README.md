@@ -45,7 +45,7 @@
 
 > **Side Project：**
 > 
-> [Band Name Generator](https://github.com/49831117/Python-100-Days/blob/master/band_name_generator.py)
+> [Band Name Generator](https://github.com/49831117/Python-100-Days/blob/master/.py/band_name_generator.py)
 
 ----
 
@@ -58,9 +58,9 @@
   
 > **Side Project：**
 > 
-> [Tips Calculator](https://github.com/49831117/Python-100-Days/blob/master/tips_calculator.py)
+> [Tips Calculator](https://github.com/49831117/Python-100-Days/blob/master/.py/tips_calculator.py)
 > 
-> [Your Life](https://github.com/49831117/Python-100-Days/blob/master/your_life.py)
+> [Your Life](https://github.com/49831117/Python-100-Days/blob/master/.py/your_life.py)
 
 ----
 
@@ -72,11 +72,11 @@
 
 > **Side Project：**
 >
-> [Leap Year](https://github.com/49831117/Python-100-Days/blob/master/leap_year.py)
+> [Leap Year](https://github.com/49831117/Python-100-Days/blob/master/.py/leap_year.py)
 >
-> [Roller Coaster Ticket](https://github.com/49831117/Python-100-Days/blob/master/roller_coaster_ticket.py)
+> [Roller Coaster Ticket](https://github.com/49831117/Python-100-Days/blob/master/.py/roller_coaster_ticket.py)
 > 
-> [Love Calculator](https://github.com/49831117/Python-100-Days/blob/master/love_calculator.py)
+> [Love Calculator](https://github.com/49831117/Python-100-Days/blob/master/.py/love_calculator.py)
 
 ----
 
@@ -105,13 +105,13 @@
 
 > **Side Project：**
 > 
-> [Toss A Coin](https://github.com/49831117/Python-100-Days/blob/master/toaa_a_coin.py)
+> [Toss A Coin](https://github.com/49831117/Python-100-Days/blob/master/.py/toaa_a_coin.py)
 > 
-> [Who Pay?](https://github.com/49831117/Python-100-Days/blob/master/who_pay.py)
+> [Who Pay?](https://github.com/49831117/Python-100-Days/blob/master/.py/who_pay.py)
 > 
-> [Treasure Map](https://github.com/49831117/Python-100-Days/blob/master/treasure_map.py)
+> [Treasure Map](https://github.com/49831117/Python-100-Days/blob/master/.py/treasure_map.py)
 > 
-> [Paper Scissors Stone](https://github.com/49831117/Python-100-Days/blob/master/paper_scissors_stone.py)
+> [Paper Scissors Stone](https://github.com/49831117/Python-100-Days/blob/master/.py/paper_scissors_stone.py)
 
 ----
 
@@ -124,13 +124,13 @@
 
 > **Side Project：**
 > 
-> [Max min average](https://github.com/49831117/Python-100-Days/blob/master/max_min_avg.py)
+> [Max min average](https://github.com/49831117/Python-100-Days/blob/master/.py/max_min_avg.py)
 > 
-> [Even sum](https://github.com/49831117/Python-100-Days/blob/master/even_sum.py)
+> [Even sum](https://github.com/49831117/Python-100-Days/blob/master/.py/even_sum.py)
 > 
-> [Fizz Buzz](https://github.com/49831117/Python-100-Days/blob/master/fizz_buzz.py)
+> [Fizz Buzz](https://github.com/49831117/Python-100-Days/blob/master/.py/fizz_buzz.py)
 > 
-> [Password Generator](https://github.com/49831117/Python-100-Days/blob/master/password_generator.py)
+> [Password Generator](https://github.com/49831117/Python-100-Days/blob/master/.py/password_generator.py)
 
 ----
 
@@ -138,7 +138,7 @@
 
 - [Reeborg's World - Maze](https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Maze&url=worlds%2Ftutorial_en%2Fmaze1.json)
   - Tips：walk along the right-hand side ( or left-hand side ) wall.
-    - [Reeborg's World - Maze 實作](https://github.com/49831117/Python-100-Days/blob/master/Reeborgs_World_Maze.md)
+    - [Reeborg's World - Maze 實作](https://github.com/49831117/Python-100-Days/blob/master/.py/Reeborgs_World_Maze.md)
 
 ----
 
@@ -155,7 +155,7 @@
 
 > **Side Project：**
 > 
-> [Hangman](https://github.com/49831117/Python-100-Days/blob/master/hangman.py)
+> [Hangman](https://github.com/49831117/Python-100-Days/blob/master/.py/hangman.py)
 
 ----
 
@@ -186,9 +186,9 @@
 
 > **Side Project：**
 > 
-> [Prime Checker](https://github.com/49831117/Python-100-Days/blob/master/prime_checker.py)
+> [Prime Checker](https://github.com/49831117/Python-100-Days/blob/master/.py/prime_checker.py)
 >  
-> [Caesar-cipher](https://github.com/49831117/Python-100-Days/blob/master/caesar_cipher.py)
+> [Caesar-cipher](https://github.com/49831117/Python-100-Days/blob/master/.py/caesar_cipher.py)
 
 ----
 
@@ -260,11 +260,11 @@
 
 > **Side Project：**
 > 
-> [Grading Program](https://github.com/49831117/Python-100-Days/blob/master/grading_program.py)
+> [Grading Program](https://github.com/49831117/Python-100-Days/blob/master/.py/grading_program.py)
 >
-> [Travel Log](https://github.com/49831117/Python-100-Days/blob/master/travel_log.py)
+> [Travel Log](https://github.com/49831117/Python-100-Days/blob/master/.py/travel_log.py)
 >
-> [Blind Auction](https://github.com/49831117/Python-100-Days/blob/master/blind_auction.py)
+> [Blind Auction](https://github.com/49831117/Python-100-Days/blob/master/.py/blind_auction.py)
 
 ----
 
@@ -284,9 +284,9 @@
 
 > **Side Project：**
 > 
-> [Leap Year 2](https://github.com/49831117/Python-100-Days/blob/master/leap_year2.py)
+> [Leap Year 2](https://github.com/49831117/Python-100-Days/blob/master/.py/leap_year2.py)
 > 
-> [Calculator](https://github.com/49831117/Python-100-Days/blob/master/calculator.py)
+> [Calculator](https://github.com/49831117/Python-100-Days/blob/master/.py/calculator.py)
 
 ----
 
@@ -312,7 +312,7 @@
 
 > **Side Project：**
 > 
-> [Black Jack](https://github.com/49831117/Python-100-Days/blob/master/blackjack2.py)
+> [Black Jack](https://github.com/49831117/Python-100-Days/blob/master/.py/blackjack2.py)
 
 ----
 
@@ -346,4 +346,4 @@
 
 > **Side Project：**
 > 
-> [The Number Guessing Game](https://github.com/49831117/Python-100-Days/blob/master/the_number_guessing_game.py)
+> [The Number Guessing Game](https://github.com/49831117/Python-100-Days/blob/master/.py/the_number_guessing_game.py)
