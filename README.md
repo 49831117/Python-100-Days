@@ -313,3 +313,37 @@
 > **Side Project：**
 > 
 > [Black Jack](https://github.com/49831117/Python-100-Days/blob/master/blackjack2.py)
+
+----
+
+## Day 12
+
+- Scope
+  1. local scope: exist within functions
+  2. global scope
+  - difference: where you define or where you create the variables or the functions
+  - name space
+  - **Dose Python have block space?** ans: NO. But in C++, Java, etc.
+  - 如果要在自訂函數中呼叫 global variable？
+      ```python
+      enemies = 1
+      def increase_enemies():
+        global enemies ### 在函數中使用 global 呼叫該變數
+        enemies += 1
+      ```
+      - 但缺點就是容易混淆甚至產生 bug，故應盡量避免使用。
+      - **Avoid modifying global scope.**
+      - **替代方案** 使用 `return`
+      ```python
+      def increase_enemies():
+        return enemies + 1
+      enemies = increase_enemies()
+      ```
+- Python constants and global scope
+  - globe variable 應小心使用
+  - 但可以用在不變常數情況下，如：PI。使用上習慣全大寫拼寫，以利分辨。
+
+
+> **Side Project：**
+> 
+> [The Number Guessing Game](https://github.com/49831117/Python-100-Days/blob/master/the_number_guessing_game.py)
