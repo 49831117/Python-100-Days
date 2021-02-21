@@ -1,5 +1,6 @@
 # About Python 100 Days
 僅為學習過程中的隨手筆記。
+
 [Python Tutorial](https://www.w3schools.com/python/)
 
 1. 初階練習（Day1～Day14）
@@ -327,7 +328,7 @@
         global enemies ### 在函數中使用 global 呼叫該變數
         enemies += 1
       ```
-      - 但缺點就是容易混淆甚至產生 bug，故應盡量避免使用。
+      - 但缺點是容易混淆甚至產生 bug，故應盡量避免使用。
       - **Avoid modifying global variable.**
       - **替代方案** 使用 `return`
       ```python
@@ -337,8 +338,8 @@
       ```
 - Python constants and global scope
   - globe variable 應小心使用
-  - 但可以用在不變常數情況下，如：PI。使用上習慣全大寫拼寫，以利分辨。
-
+  - 但可以用在不變的常數，如：PI。（使用上習慣全大寫拼寫，以利分辨。）
+- [Text to ASCII Art Generator(TAAG)](http://patorjk.com/software/taag/#p=display&f=Graffiti&t=Type%20Something%20)
 
 > **Side Project：**
 > 
