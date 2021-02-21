@@ -328,7 +328,7 @@
         enemies += 1
       ```
       - 但缺點就是容易混淆甚至產生 bug，故應盡量避免使用。
-      - **Avoid modifying global scope.**
+      - **Avoid modifying global variable.**
       - **替代方案** 使用 `return`
       ```python
       def increase_enemies():
