@@ -2,6 +2,24 @@
 僅為學習過程中的隨手筆記。
 [Python Tutorial](https://www.w3schools.com/python/)
 
+- 初階練習（Day1～Day14）
+  - [Day 1](https://github.com/49831117/Python-100-Days#day-1) 
+  - [Day 2](https://github.com/49831117/Python-100-Days#day-2) 
+  - [Day 3](https://github.com/49831117/Python-100-Days#day-3) 
+  - [Day 4](https://github.com/49831117/Python-100-Days#day-4)
+  - [Day 5](https://github.com/49831117/Python-100-Days#day-5)
+  - [Day 6](https://github.com/49831117/Python-100-Days#day-6)
+  - [Day 7](https://github.com/49831117/Python-100-Days#day-7)
+  - [Day 8](https://github.com/49831117/Python-100-Days#day-8)
+  - [Day 9](https://github.com/49831117/Python-100-Days#day-9)
+  - [Day 10](https://github.com/49831117/Python-100-Days#day-10)
+  - [Day 11](https://github.com/49831117/Python-100-Days#day-11)
+1. 中階練習（Day15～Day57）
+2. 高級練習（Day57～Day79）
+3. 專業練習（Dat80～Day100）
+
+----
+# 初階
 ## Day 1
 
 - 線上 IDE：https://repl.it/
@@ -27,7 +45,7 @@
 
 > **Side Project：**
 > 
-> [Band Name Generator](https://github.com/49831117/Python-100-Days/blob/master/band-name-generator.py)
+> [Band Name Generator](https://github.com/49831117/Python-100-Days/blob/master/band_name_generator.py)
 
 ----
 
@@ -106,7 +124,7 @@
 
 > **Side Project：**
 > 
-> [Max min avg](https://github.com/49831117/Python-100-Days/blob/master/max_min_avg.py)
+> [Max min average](https://github.com/49831117/Python-100-Days/blob/master/max_min_avg.py)
 > 
 > [Even sum](https://github.com/49831117/Python-100-Days/blob/master/even_sum.py)
 > 
@@ -168,6 +186,8 @@
 
 > **Side Project：**
 > 
+> [Prime Checker](https://github.com/49831117/Python-100-Days/blob/master/prime_checker.py)
+>  
 > [Caesar-cipher](https://github.com/49831117/Python-100-Days/blob/master/caesar_cipher.py)
 
 ----
