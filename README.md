@@ -344,3 +344,26 @@
 > **Side Project：**
 > 
 > [The Number Guessing Game](https://github.com/49831117/Python-100-Days/blob/master/.py/the_number_guessing_game.py)
+
+----
+
+## Day 12
+
+- **Steps to Debug**
+  > It's an important part of every programmer's journey.
+  1. Describe the problem.
+    > Untangle the problem and try to make sense of what's going on.
+  2. Reproduce the bug.
+    > Sometimes the bug not show up in the first time.
+  3. Play computer.
+  4. Fix the errors
+  5. Use `print()`.
+  6. Use a debugger.
+    > [Python Tutor](http://www.pythontutor.com/visualize.html#mode=edit) (onlone debugger)
+  7. Take a break.
+  8. Ask your friend.
+  9. Run often.
+    > If you do end up in that situation and you can see multiple bugs at the same time, try to tackle them one at a time instead of trying to do bits and bobs of each.
+  10. Ask Stack Overflow.
+
+> [7 Steps to Debug Efficiently and Effectively](https://www.codementor.io/@mattgoldspink/how-to-debug-code-efficiently-and-effectively-du107u9jh)
