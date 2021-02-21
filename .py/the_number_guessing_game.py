@@ -30,16 +30,18 @@ def compare(guess_num, attempts):
         print("Guess again.")
         return end_game
     elif guess_num == answer_num and attempts > 0:
-        print(f"You got it! The answer was {guess_num}.")
+        print(f"You got it! The answer was {answer_num}.")
         end_game = True
         return end_game
     elif attempts <1:
         print("You've run out of guesses, you lose.")
+        print(f"The correct number was {answer_num}.")
         end_game = True
         return end_game
 
 if easy_or_hard == "easy":
     attempts = 10
+    print(f"You have {attempts} attempts remaining to guess the number.")
     end_game = False
     while not end_game:
         guess_num = int(input("Make a guess: "))
@@ -49,6 +51,7 @@ if easy_or_hard == "easy":
             print(f"You have {attempts} attempts remaining to guess the number.")
 elif easy_or_hard == "hard":
     attempts = 5
+    print(f"You have {attempts} attempts remaining to guess the number.")
     end_game = False
     while not end_game:
         guess_num = int(input("Make a guess: "))
