@@ -12,7 +12,7 @@
    | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10|
    |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
    |[Day 1](https://github.com/49831117/Python-100-Days#day-1) | [Day 2](https://github.com/49831117/Python-100-Days#day-2) |  [Day 3](https://github.com/49831117/Python-100-Days#day-3) | [Day 4](https://github.com/49831117/Python-100-Days#day-4) | [Day 5](https://github.com/49831117/Python-100-Days#day-5) | [Day 6](https://github.com/49831117/Python-100-Days#day-6) |  [Day 7](https://github.com/49831117/Python-100-Days#day-7) | [Day 8](https://github.com/49831117/Python-100-Days#day-8) | [Day 9](https://github.com/49831117/Python-100-Days#day-9) | [Day 10](https://github.com/49831117/Python-100-Days#day-10)
-   |[Day 11](https://github.com/49831117/Python-100-Days#day-11) | [Day 12](https://github.com/49831117/Python-100-Days#day-12)|
+   |[Day 11](https://github.com/49831117/Python-100-Days#day-11) | [Day 12](https://github.com/49831117/Python-100-Days#day-12)|[Day 13](https://github.com/49831117/Python-100-Days#day-13)
 
 
 ----
@@ -347,7 +347,7 @@
 
 ----
 
-## Day 12
+## Day 13
 
 - **Steps to Debug**
   > It's an important part of every programmer's journey.
