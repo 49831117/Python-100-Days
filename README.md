@@ -367,3 +367,21 @@
   10. Ask Stack Overflow.
 
 - [7 Steps to Debug Efficiently and Effectively](https://www.codementor.io/@mattgoldspink/how-to-debug-code-efficiently-and-effectively-du107u9jh)
+
+----
+
+## Day 14
+
+- 玩玩看：[The Higher Lower Game](http://www.higherlowergame.com/)
+  - Step 1. 觀察遊戲規則，完成 flow chart
+  - Step 2. Break down the problem
+  - Step 3. To - do list
+    1. 讀取 `game_data.py` 資料 (a list of a dictionary)
+    2. 將字典中資訊組成語句印出
+    3. `input()` 使用者猜測值
+    4. 比較、印出猜測結果
+  - Step 4. Turn the problem into comments
+
+> **Side Project：**
+> 
+> [Higher Lower]
