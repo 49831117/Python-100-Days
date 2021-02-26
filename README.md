@@ -414,3 +414,11 @@
       print(data)
     ```
 - `import pandas`  
+- [2018 Central Park Squirrel Census - Squirrel Data](https://data.cityofnewyork.us/Environment/2018-Central-Park-Squirrel-Census-Squirrel-Data/vfnx-vebw)
+    - 計算各毛色數量
+        > 只有三種顏色
+          ||Primary Fur Color|Count|
+          |:---:|:---:|:---:|
+          |0|Gray||
+          |1|Cinnamon||
+          |2|Black||

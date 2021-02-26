@@ -41,6 +41,33 @@ temp_list = data["temp"].to_list()
 # print(max(temp_list)) # list 用
 # print(data["temp"].max()) # series 用
 
-# # get Data in Columns ### 屬性名稱要完全一樣
-# print(data["condition"])
-# print(data.condition)
+# # Get Data in Columns ### 屬性名稱要完全一樣
+# print(data["condition"]) # 把 data 當字典
+# print(data.condition)  # 把 data 當物件
+
+# # Get Data in Row ########## 印出來不一樣
+# print(data[data.day == "Monday"]) # 1 by 3
+# print(data[data["day"] == "Monday"]) # 1 by 3，同上
+# print(data.iloc[1]) # 3 by 1
+
+# # print the day which has the maimum temperature
+# print(data[data.temp == data.temp.max()])
+# print(data[data["temp"] == max(data["temp"])])
+
+# monday = data[data.day == "Monday"]
+# print(monday["condition"])
+# print(monday.condition)
+
+# monday_temp = int(data[data.day == "Monday"].temp)
+# print( 32 + monday_temp * 9/5)
+
+# Creat a Dataframe from scratch
+data_dict = {
+    'students': ['Amy', 'James', 'Angela'],
+    'scores': [76, 56, 65]
+}
+data = pd.DataFrame(data_dict)
+# print(data)
+data.to_csv('.py\\test.csv')
+
+
