@@ -385,3 +385,32 @@
 > **Side Project：**
 > 
 > [Higher Lower]
+
+----
+
+## Day 25
+
+- [pandas documentation](https://pandas.pydata.org/docs/)
+- [pandas API reference](https://pandas.pydata.org/docs/reference/index.html)
+- common seperated values
+- weather_data.csv
+    |day|temp|condition|
+    |:---:|:---:|:---:|
+    |Monday|12|Sunny|
+    |Tuesday|14|Rain|
+    |Wednesday|15|Rain|
+    |Thursday|14|Cloudy|
+    |Friday|21|Sunny|
+    |Saturday|22|Sunny|
+    |Sunday|24|Sunny|
+
+  **to-do 1**
+  1. open up this file.
+  2. add each line of data into a list which we'll called data.
+    ```python
+    # 讀取 .csv 檔，存在 data
+    with open(".py\\weather_data.csv") as data_file:
+      data = data_file.readlines()
+      print(data)
+    ```
+- `import pandas`  
