@@ -32,4 +32,9 @@ color_b_count = len(data[data["Primary Fur Color"] == "Black"])
 df = pd.DataFrame([["Gray", color_g_count], ["Cinnamon", color_c_count], ["Black", color_b_count]], columns = ["Primary Fur Color", "Count"])
 df.to_csv(".py\\squirrel_count.csv")
 
-
+# data_dict = {
+#     "Primary Fur Color":["Gray", "Cinnamon", "Black"],
+#     "Count":[color_g_count, color_c_count, color_b_count]
+# }
+# df = pd.DataFrame(data_dict)
+# df.to_csv(".py\\squirrel_count.csv")
