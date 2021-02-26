@@ -17,4 +17,4 @@ for i in data["Primary Fur Color"]:
         color_b += 1
 
 df = pd.DataFrame([["Gray", color_g], ["Cinnamon", color_c], ["Black", color_b]], columns = ["Primary Fur Color", "Count"])
-print(df)
+df.to_csv("squirrel_count.csv")
