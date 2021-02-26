@@ -422,3 +422,9 @@
           |0|Gray||
           |1|Cinnamon||
           |2|Black||
+- [Sporcle - Can you name the US states?](https://www.sporcle.com/games/g/states)
+    - [Get mouse click coordinates in Python turtle](https://stackoverflow.com/questions/42878641/get-mouse-click-coordinates-in-python-turtle)
+
+> **Side Project**
+> 
+> [Name The States Game]
