@@ -21,7 +21,7 @@ all_states = data.state.to_list()
 guess_state = []
 
 while len(guess_state) < 51:
-    ans_state = screen.textinput(title = f"({len(guess_state)}/50)Guess the State", prompt = "What's another State's name?").title()
+    ans_state = screen.textinput(title = f"({len(guess_state)}/50)Guess the State", prompt = "What's another State's name?\nOr enter 'Exit' to end the game.").title()
 
     if ans_state == "Exit":
         missing_state = []
