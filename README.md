@@ -403,6 +403,9 @@
 - emoji
   - [Windows 10 keyboard tips and tricks](https://support.microsoft.com/en-us/windows/windows-10-keyboard-tips-and-tricks-588e0b72-0fff-6d3f-aeee-6e5116097942)
   - [Use emoji and symbols on Mac](https://support.apple.com/en-gb/guide/mac-help/mchlp1560/mac)
+
+- [Coffee Machine Program Requirements](https://github.com/49831117/Python-100-Days/blob/master/.pdf/Coffee%2BMachine%2BProgram%2BRequirements.pdf)
+  - 根據此表完成[Coffee Machine]()
 ----
 
 ## Day 25
