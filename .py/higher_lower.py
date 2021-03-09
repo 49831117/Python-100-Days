@@ -28,7 +28,6 @@ vs = """
 import os
 def clear():
     os.system('cls')
-
 import random
 from game_data import data
 
@@ -41,9 +40,7 @@ def compare(a, b):
 
 def check_point(count):
     if count != 0:
-        print(f"You're right! Your current score is {count}.")
-        
-
+        print(f"You're right! Your current score is {count}.\n")
 
 continue_game = True
 count = 0
@@ -58,24 +55,25 @@ while continue_game:
     print(logo)
     print(f"Compare A: {a['name']}, a {a['description']}, from {a['country']}.")
     print(vs)
-    print(f"Compare B: {b['name']}, a {b['description']}, from {b['country']}.")
+    print(f"Against B: {b['name']}, a {b['description']}, from {b['country']}.")
     right = compare(a, b)
-    check_point(count)
     print("偷看答案：", right)
-    ans = input("Who has the more follower? (A/B)").lower()
+    print("\n")
+    check_point(count)
+    ans = input("Who has the more follower? (A/B) ").lower()
     if right != ans:
         clear()
         print(logo)
         print(f"Compare A: {a['name']}, a {a['description']}, from {a['country']}.")
         print(vs)
-        print(f"Compare B: {b['name']}, a {b['description']}, from {b['country']}.")
-        print(f"Sorry, you're answer ({ans.upper()}) is wrong! Your current score is {count}.")
+        print(f"Against B: {b['name']}, a {b['description']}, from {b['country']}.")
+        print("\n\n")
+        print(f"Sorry, you're answer ({ans.upper()}) is wrong! Your final score is {count}.\n")
         continue_game = False
-
     a = b
-    data.remove(a)
-    c, d = random.sample(data, 2)
-    b = dict(c)
+    b = dict(random.choice(data))
+    while a == b:
+        b = dict(random.choice(data))
     count += 1 
     
  
