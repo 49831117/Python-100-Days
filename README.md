@@ -385,7 +385,24 @@
 > **Side Project：**
 > 
 > [Higher Lower](https://github.com/49831117/Python-100-Days/blob/master/.py/higher_lower.py)
+> 
+----
 
+## Day 15
+
+- IDE, Integrated Development Environment
+  1. Download Python：https://www.python.org/downloads/
+      > "Disable path length limit." → (click) → "Do you want to allow this app to make changes to your device?"  → (click 'Yes')
+  2. Install PyCharm (Community is FREE)：https://www.jetbrains.com/pycharm/download/
+      - Build-in Linter
+        > [PEP 8](https://www.python.org/dev/peps/pep-0008/)
+      - Local history：Last 12 hours
+      - View structure
+      - Refactor rename
+      - [PyCharm keyboard shortcut - Running and debugging](https://www.jetbrains.com/help/pycharm/running-and-debugging-shortcuts.html?keymap=secondary_windows)
+- emoji
+  - [Windows 10 keyboard tips and tricks](https://support.microsoft.com/en-us/windows/windows-10-keyboard-tips-and-tricks-588e0b72-0fff-6d3f-aeee-6e5116097942)
+  - [Use emoji and symbols on Mac](https://support.apple.com/en-gb/guide/mac-help/mchlp1560/mac)
 ----
 
 ## Day 25
