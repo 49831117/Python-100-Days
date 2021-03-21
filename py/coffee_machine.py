@@ -84,8 +84,9 @@ while turn_on:
 
 
 # TODO 2: what_would_you_want = "report" / "espresso" / "latte" / "cappuccino"
-# TODO 3: report 
-    # TODO 3-1: report 中任一項 < 0 則拒絕製作
+# TODO 3: check resources sufficient or not
+    # TODO 3-1: report 中任一項 < 0 則拒絕製作，並印出拒絕的原因
     # TODO 3-2: report 製作完後要材料減少、金額要增加
-# TODO 4: coins
+# TODO 4: process coins & check transaction successfull or not
+    # TODO 4-1: 錢夠→要製作，錢不夠→不製作並印出拒絕原因
 # TODO 5：make coffee
