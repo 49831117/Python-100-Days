@@ -406,6 +406,12 @@
 
 - [Coffee Machine Program Requirements](https://github.com/49831117/Python-100-Days/blob/master/.pdf/Coffee%2BMachine%2BProgram%2BRequirements.pdf)
   - 根據此表完成[Coffee Machine]()
+
+> 好用技巧：多行編輯
+> 1. Windows - `Alt` + `shift`
+> 2. Mac - `option` + `shift`
+
+
 ----
 
 ## Day 25
