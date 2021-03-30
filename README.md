@@ -415,12 +415,44 @@
 > 
 > [Coffee Machine](https://github.com/49831117/Python-100-Days/blob/master/.py/coffee_machine.py)
 > 
+----
+
+## Day 16
+- OOP, Object Oriented Programming 物件導向程式設計
+  - 將任務切成數個小任務，針對各任務目的模組化
+  - 餐廳經理 → 餐廳員工（門口接待、服務生、廚師、清潔人員...）
+- Procedural Programming 程序式程式設計
+  - 過程呼叫、函式呼叫
+  - 一人餐廳 → 一人完成點餐、廚師、送餐、清潔等工作
+- How to use OOP？
+> [Steve Jobs in 1994: The Rolling Stone Interview](https://www.rollingstone.com/culture/culture-news/steve-jobs-in-1994-the-rolling-stone-interview-231132/)
+  1. eg. waiter
+    1. **Attributes** - what it **has**? 
+      - `is_holding_plate = True`
+      - `tables_responsible = [4, 5, 6]`
+    2. **Methods** - what it **does**?
+      - `def take_order(table, order):`
+      - `def take_payment(amount):`
+  2. Class（Pascal Case）
+  > rf:[Camel case > upper camel case](https://en.wikipedia.org/wiki/Camel_case)
+    - 同一模組（Class, `CarBlueprint()`）可以生成多個版本（Object, `car`）
+    - `car = CarBlueprint()`
+- Turtle Graphics
+  1. [Turtle Graphics - Documentation](https://docs.python.org/3/library/turtle.html)
+  2. [Turtle colors](https://cs111.wellesley.edu/labs/lab01/colors)
+  - `Object.Attribute`
+  - `Object.Method`
+- [Pypi.org](https://pypi.org/)
+- `prettytable`
+  - [prettytable - Tutorial.wiki](https://code.google.com/archive/p/prettytable/wikis/Tutorial.wiki)
+  - 
+
 
 ----
 
 ## Day 25
 
-- [pandas documentation](https://pandas.pydata.org/docs/)
+- [pandas - Documentation](https://pandas.pydata.org/docs/)
 - [pandas API reference](https://pandas.pydata.org/docs/reference/index.html)
 - common seperated values
 - weather_data.csv
