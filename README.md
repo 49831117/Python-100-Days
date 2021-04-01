@@ -471,6 +471,19 @@
 
 ----
 
+## Day 18
+
+- Turtle Graphics, Tuples and Importimg Modules
+  - `pencolor(colorstring)`: Set pencolor to *colorstring*, which is a Tk color spacification string, such as `'red'`, `'yellow'`, or `'#33cc8c'`
+    - rf:[`turtle`.**pencolor**(**args*)](https://docs.python.org/3/library/turtle.html#turtle.pencolor)
+    - Tk = tkinter (module)
+    - GUI = Graphical User Interface
+- [CS111 = Turtle Colors](https://cs111.wellesley.edu/labs/lab01/colors)
+- [Colors](https://trinket.io/docs/colors)
+
+
+----
+
 ## Day 25
 
 - [pandas - Documentation](https://pandas.pydata.org/docs/)
